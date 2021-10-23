@@ -1,7 +1,7 @@
 ---
 openapi: 3.0.1
 info:
-  title: API V1
+  title: Shop wine API
   version: v1
 paths:
   "/users":
@@ -43,8 +43,8 @@ paths:
       responses:
         '200':
           description: successful
-servers:
-- url: https://{defaultHost}
-  variables:
-    defaultHost:
-      default: www.example.com
+# servers:
+# - url: https://localhost:3000
+#   variables:
+#     defaultHost:
+#       default: www.example.com
