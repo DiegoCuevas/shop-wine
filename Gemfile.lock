@@ -64,6 +64,8 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    ancestry (4.1.0)
+      activerecord (>= 5.2.6)
     bootsnap (1.9.1)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -184,6 +186,7 @@ PLATFORMS
 
 DEPENDENCIES
   aasm
+  ancestry
   bootsnap (>= 1.4.4)
   byebug
   listen (~> 3.3)
